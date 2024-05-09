@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive&display=swap');
+
+body{
+    background-color: #EDEBDC;
+}
+
+.sidebar{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 3000px;
+    background-color: #2E3144;
+}
+
+.initial{
+    color: #2E3144;
+    font-family: "Cutive", serif;
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    font-size: 3em;
+}
+
+.info{
+    font-size: 0.35em;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-one{
+    width: 500px;
+    margin: 50px;
+    position: relative;
+    left: -50px;
+    top: -50px;
+}
+
+.timeline{
+    width: 800px;
+    height: 600px;
+}
+
+.second{
+    margin: 100px;
+    position: relative;
+    top: 900px;
+    left: 100px;
+}
+
+.heading-two{
+    color: #2E3144;
+    font-family: "Cutive", serif;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+}
+
+.slide img {
+    width: 1200px;
+    height: 800px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 300px;
+}
+
+.third{
+    margin: 100px;
+    position: relative;
+    top: 900px;
+    left: 100px;
+}
+
+.heading-three{
+    color: #2E3144;
+    font-family: "Cutive", serif;
+    font-weight: 400;
+    text-decoration: underline;
+}
+
+.container-two {
+    color: #2E3144;
+    font-family: "Cutive", serif;
+    margin-top: 50px;
+    font-size: 1em;
+}
+
+.image-container {
+    margin-top: 20px;
+    display: none; /* Initially hide the image container */
+}
+
+#selectedImage{
+    width: 1000px;
+    height: 900px;
+}
